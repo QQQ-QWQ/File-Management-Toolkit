@@ -1,0 +1,49 @@
+{
+    "file_types": {
+        "Documents": [
+            "doc", "docx", "pdf", "txt", "xls", "xlsx", "ppt", "pptx", "md", "csv"
+        ],
+        "Images": [
+            "jpg", "jpeg", "png", "gif", "bmp", "svg", "webp", "tiff", "ico"
+        ],
+        "Videos": [
+            "mp4", "mkv", "avi", "mov", "wmv", "flv", "webm"
+        ],
+        "Audio": [
+            "mp3", "wav", "flac", "m4a", "aac", "ogg"
+        ],
+        "Archives": [
+            "zip", "rar", "7z", "tar", "gz", "iso"
+        ],
+        "Executables": [
+            "exe", "msi", "bat", "sh", "cmd"
+        ],
+        "Code": [
+            "py", "java", "c", "cpp", "js", "html", "css", "php", "json", "xml", "sql"
+        ]
+    },
+    "keywords": {
+        "invoice": "Financial",
+        "receipt": "Financial",
+        "report": "Reports",
+        "project": "Work"
+    },
+    "exclude_dirs": [
+        ".git",
+        ".vscode",
+        "__pycache__",
+        "venv",
+        "node_modules",
+        "System Volume Information",
+        "$RECYCLE.BIN"
+    ],
+    "exclude_extensions": [
+        "ini",
+        "tmp",
+        "log",
+        "bak"
+    ],
+    "backup_enabled": true,
+    "log_file": "organizer.log",
+    "undo_file": "undo_log.json"
+}
